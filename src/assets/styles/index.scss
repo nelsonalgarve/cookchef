@@ -1,0 +1,14 @@
+@use "./variables";
+@use "./base";
+@use "./flex";
+@use "./utils";
+@use "./debug";
+@use "./themes";
+
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
